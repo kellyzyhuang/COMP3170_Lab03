@@ -1,0 +1,68 @@
+.story {
+  position: relative;
+  padding: 1em; 
+  background: #fff;
+  margin-bottom: 1.5em;
+  box-shadow: 0 1px 2px #aeaeae;
+}
+
+.story span.delete {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 0.8;
+  top: 0;
+  right: 0;
+  background: #5f3958 !important;
+  color: #fff;
+  cursor: pointer;
+}
+
+.story_header {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.story_header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  color: pink; 
+}
+
+.story .story_header h1 a {
+  text-decoration: none;
+  color: #90628b; 
+}
+
+.story .story_header h1 a:hover {
+  text-decoration: underline;
+  color: #58305b; 
+}
+
+.story_creator {
+  display: block;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: bold; 
+}
+
+.story_image {
+  max-width: 20%;
+}
+
+.story_image img {
+  width: 100%;
+}
+
+.story_description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;   
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 1em;
+  font-size: 1rem;
+}
